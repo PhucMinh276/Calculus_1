@@ -1,0 +1,33 @@
+Câu 1: Tính lim (x -> 2) (x^2 - 4) / (x^2 - 5x + 6)
+Câu 2: Tính lim (x -> 1) [ 2 / (1 - x^2) - 1 / (1 - x) ]
+Câu 3: Tính lim (x -> +∞) (3x^2 - 5x + 1) / (2x^2 + 4x - 3)
+
+LỜI GIẢI CHI TIẾT
+
+Câu 1: lim (x -> 2) (x^2 - 4) / (x^2 - 5x + 6)
+- Phân tích tử thức: x^2 - 4 = (x - 2)(x + 2)
+- Phân tích mẫu thức: x^2 - 5x + 6 = (x - 2)(x - 3)
+- Rút gọn nhân tử (x - 2):
+  lim (x -> 2) [(x - 2)(x + 2)] / [(x - 2)(x - 3)]
+= lim (x -> 2) (x + 2) / (x - 3)
+- Thay x = 2 vào biểu thức sau khi rút gọn:
+= (2 + 2) / (2 - 3) = 4 / (-1) = -4
+=> Đáp số: -4
+
+Câu 2: lim (x -> 1) [ 2 / (1 - x^2) - 1 / (1 - x) ]
+- Phân tích mẫu thức: 1 - x^2 = (1 - x)(1 + x)
+- Quy đồng mẫu thức chung là (1 - x)(1 + x):
+  lim (x -> 1) [ 2 - (1 + x) ] / [ (1 - x)(1 + x) ]
+= lim (x -> 1) (1 - x) / [ (1 - x)(1 + x) ]
+- Rút gọn nhân tử (1 - x):
+= lim (x -> 1) 1 / (1 + x)
+- Thay x = 1 vào biểu thức sau khi rút gọn:
+= 1 / (1 + 1) = 1/2
+=> Đáp số: 1/2
+
+Câu 3: lim (x -> +∞) (3x^2 - 5x + 1) / (2x^2 + 4x - 3)
+- Chia cả tử và mẫu cho bậc cao nhất của x là x^2:
+  lim (x -> +∞) (3 - 5/x + 1/x^2) / (2 + 4/x - 3/x^2)
+- Khi x -> +∞, các phân thức 5/x, 1/x^2, 4/x, 3/x^2 đều tiến về 0:
+= (3 - 0 + 0) / (2 + 0 - 0) = 3/2
+=> Đáp số: 3/2
